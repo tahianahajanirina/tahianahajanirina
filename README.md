@@ -15,9 +15,9 @@ End-to-end MLOps system for real-time credit card fraud detection.
 - **CI/CD:** GitHub Actions · 63 tests
 - **Results:** AUC-PR 0.567 · F1 0.711 · ROC-AUC 0.887
 
-### 🛍️ Rakuten Product Classification — Hierarchical NLP at Scale
-Hierarchical classification of 8M+ e-commerce products across 157 L1 and 6100+ L2 categories.
-- **Model:** HYDRA (Karl et al., EMNLP 2025) — 3 variants: Local, Global, Nested
+### 🛍️ HieraCat — Hierarchical Product Classification at Scale
+Deep hierarchical classification of millions of e-commerce products across 150+ top-level and 6000+ fine-grained categories.
+- **Model:** Multi-head hierarchical transformer — 3 variants: Local, Global, Nested
 - **Backbone:** CamemBERT · DDP multi-GPU training on SLURM cluster (P100 / A100)
 - **Stack:** PyTorch · HuggingFace Transformers · MLflow · SLURM
 
