@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="mailto:tahiana.hajanirina@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/tahiana-andriambahoaka"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/tahiana-andriambahoaka"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <img src="https://img.shields.io/badge/Mastère_Spécialisé_IA_%26_Data-Télécom_Paris_·_Institut_Polytechnique_de_Paris-003189?style=for-the-badge"/>
 </p>
 
