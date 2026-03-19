@@ -36,12 +36,14 @@ Pipeline MLOps complet de bout en bout : ingestion, entraînement automatisé, A
 
 **Résultats :** F1 = 0.711 · ROC-AUC = 0.887
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 [![Voir le repo](https://img.shields.io/badge/→_Voir_le_repo-black?style=for-the-badge&logo=github)](https://github.com/tahianahajanirina/Fraudguard)
 
@@ -59,11 +61,11 @@ Système de classification hiérarchique profonde pour catégoriser des produits
 - ⚡ Entraînement distribué multi-GPU sur cluster SLURM
 - 📈 Tracking MLflow · enforcement hiérarchique à l'inférence · 58 tests
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
-![SLURM](https://img.shields.io/badge/SLURM-HPC-green?style=flat)
-![CamemBERT](https://img.shields.io/badge/CamemBERT-NLP-orange?style=flat)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![SLURM](https://img.shields.io/badge/SLURM-HPC-green?style=for-the-badge)
+![CamemBERT](https://img.shields.io/badge/CamemBERT-NLP-orange?style=for-the-badge)
 
 ![Projet confidentiel](https://img.shields.io/badge/Projet_confidentiel-🔒-lightgrey?style=for-the-badge)
 
@@ -83,11 +85,12 @@ Pipeline Big Data qui ingère toutes les minutes les positions GPS des avions, l
 - 🤖 Classification des phases de vol par K-Means (Spark MLlib) + détection d'anomalies
 - 📊 Dashboard Kibana interactif · Score de risque FAA 0–100
 
-![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat&logo=kibana&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white)
 
 [![Voir le repo](https://img.shields.io/badge/→_Voir_le_repo-black?style=for-the-badge&logo=github)](https://github.com/tahianahajanirina/skysafe-datalake)
 
@@ -105,10 +108,11 @@ Plateforme ML complète d'analyse et de recommandation de recettes : clustering 
 - 💬 Analyse de sentiment fine-tunée sur les avis culinaires
 - 🤖 Chatbot RAG (Gemini) · Recommandation SVD · 124 tests
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 [![Voir le repo](https://img.shields.io/badge/→_Voir_le_repo-black?style=for-the-badge&logo=github)](https://github.com/tahianahajanirina/mangetamain)
 
@@ -125,7 +129,7 @@ Plateforme ML complète d'analyse et de recommandation de recettes : clustering 
 | **ML & NLP** | Python · PyTorch · scikit-learn · LightGBM · HuggingFace · CamemBERT |
 | **MLOps** | MLflow · Airflow · FastAPI · Docker · Kubernetes · GitHub Actions |
 | **Monitoring** | Prometheus · Grafana · StatsD |
-| **Big Data** | Apache Spark · Elasticsearch · Kibana · AWS S3 |
+| **Big Data** | Apache Spark · Elasticsearch · Kibana · PostgreSQL · AWS S3 |
 | **HPC** | SLURM · DDP multi-GPU |
 
 ---
