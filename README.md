@@ -126,11 +126,11 @@ Plateforme ML complète d'analyse et de recommandation de recettes : clustering 
 
 | Domaine | Outils |
 |--------|--------|
-| **ML & NLP** | Python · PyTorch · scikit-learn · LightGBM · HuggingFace · CamemBERT |
+| **ML & NLP** | Python · PyTorch · scikit-learn · Gradient Boosting · HuggingFace · Transformers |
 | **MLOps** | MLflow · Airflow · FastAPI · Docker · Kubernetes · GitHub Actions |
-| **Monitoring** | Prometheus · Grafana · StatsD |
+| **Observabilité** | Prometheus · Grafana · StatsD |
 | **Big Data** | Apache Spark · Elasticsearch · Kibana · PostgreSQL · AWS S3 |
-| **HPC** | SLURM · DDP multi-GPU |
+| **HPC** | SLURM · Entraînement distribué multi-GPU |
 
 ---
 
