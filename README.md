@@ -1,18 +1,18 @@
 <h1 align="center">Salut, moi c'est Tahiana 👋</h1>
 
 <p align="center">
-  <em>Ingénieure MLOps & IA · Télécom Paris</em><br/>
+  <em>Ingénieure MLOps & IA · Télécom Paris — Institut Polytechnique de Paris</em><br/>
   Je transforme des modèles ML en systèmes robustes, observables et prêts pour la production.
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=MLOps+Engineer;NLP+%26+Deep+Learning;Production+ML+Systems;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=MLOps+Engineer;NLP+%26+Deep+Learning;Big+Data+Pipelines;Always+learning%2C+always+shipping+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="mailto:tahiana.hajanirina@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/tahiana-andriambahoaka"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Mastère_Spécialisé_IA_%26_Data-Télécom_Paris_·_Institut_Polytechnique_de_Paris-003189?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Mastère_IA_%26_Data-Télécom_Paris_·_IP_Paris-003189?style=for-the-badge"/>
 </p>
 
 ---
@@ -26,13 +26,13 @@
 ### 🔍 FraudGuard
 > **Détecter la fraude bancaire avant qu'elle arrive.**
 
-Pipeline MLOps complet de bout en bout : ingestion de données, entraînement automatisé, déploiement d'API, monitoring en temps réel — le tout orchestré en production.
+Pipeline MLOps complet de bout en bout : ingestion, entraînement automatisé, API de prédiction temps réel, monitoring production — le tout orchestré avec Airflow et containerisé avec Docker.
 
 **Ce que ça fait :**
 - 🧠 Modèle LightGBM entraîné sur des centaines de milliers de transactions
 - ⚙️ Retraining automatique déclenché par Airflow
-- 📊 Dashboard Grafana + alertes Prometheus
-- 🚀 API FastAPI containerisée, testée, déployable sur K8s
+- 📊 Dashboard Grafana + alertes Prometheus en temps réel
+- 🚀 API FastAPI · 63 tests · déployable sur Kubernetes
 
 **Résultats :** F1 = 0.711 · ROC-AUC = 0.887
 
@@ -55,11 +55,9 @@ Système de classification hiérarchique profonde pour catégoriser des produits
 
 **Ce que ça fait :**
 - 🗂️ 150+ catégories principales · 6 000+ sous-catégories
-- 🤖 Architecture transformer multi-têtes (3 variantes)
+- 🤖 Architecture transformer multi-têtes (3 variantes : Local, Global, Nested)
 - ⚡ Entraînement distribué multi-GPU sur cluster SLURM
-- 📈 Tracking d'expériences MLflow intégré
-
-**Stack :** NLP · Deep Learning · HPC
+- 📈 Tracking MLflow · enforcement hiérarchique à l'inférence · 58 tests
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
@@ -74,14 +72,22 @@ Système de classification hiérarchique profonde pour catégoriser des produits
 <tr>
 <td width="50%" valign="top">
 
-### ☁️ SkySafe Datalake
-> **Centraliser et exploiter des données critiques de sécurité aérienne.**
+### ✈️ SkySafe Datalake
+> **Surveiller le trafic aérien français en temps réel avec le Big Data.**
 
-Architecture de data lake cloud pour collecter, stocker et requêter des données de sécurité aéronautique — avec une pipeline de traitement robuste et scalable.
+Pipeline Big Data qui ingère toutes les minutes les positions GPS des avions, les croise avec la météo, et calcule un score de risque aéronautique affiché sur un dashboard interactif.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_S3-FF9900?style=flat&logo=amazonaws&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+**Ce que ça fait :**
+- 📡 Ingestion temps réel via OpenSky API · proxy Serverless Scaleway
+- 🌊 Architecture Data Lake 4 couches sur Amazon S3 (raw → usage)
+- 🤖 Classification des phases de vol par K-Means (Spark MLlib) + détection d'anomalies
+- 📊 Dashboard Kibana interactif · Score de risque FAA 0–100
+
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat&logo=kibana&logoColor=white)
 
 [![Voir le repo](https://img.shields.io/badge/→_Voir_le_repo-black?style=for-the-badge&logo=github)](https://github.com/tahianahajanirina/skysafe-datalake)
 
@@ -89,9 +95,20 @@ Architecture de data lake cloud pour collecter, stocker et requêter des donnée
 <td width="50%" valign="top">
 
 ### 🍽️ MangetaMain
-> **Projet full-stack Télécom Paris.**
+> **Recommander des recettes personnalisées grâce au Machine Learning.**
 
-Application web complète développée dans le cadre du cursus ingénieur à Télécom Paris.
+Plateforme ML complète d'analyse et de recommandation de recettes : clustering utilisateurs, analyse nutritionnelle, analyse de sentiment sur les avis, chatbot RAG et recommandation collaborative.
+
+**Ce que ça fait :**
+- 👤 Clustering utilisateurs & recettes (K-Means)
+- 🥗 Tagger nutritionnel automatique (calories, sucres, protéines)
+- 💬 Analyse de sentiment fine-tunée sur les avis culinaires
+- 🤖 Chatbot RAG (Gemini) · Recommandation SVD · 124 tests
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 [![Voir le repo](https://img.shields.io/badge/→_Voir_le_repo-black?style=for-the-badge&logo=github)](https://github.com/tahianahajanirina/mangetamain)
 
@@ -108,7 +125,7 @@ Application web complète développée dans le cadre du cursus ingénieur à Té
 | **ML & NLP** | Python · PyTorch · scikit-learn · LightGBM · HuggingFace · CamemBERT |
 | **MLOps** | MLflow · Airflow · FastAPI · Docker · Kubernetes · GitHub Actions |
 | **Monitoring** | Prometheus · Grafana · StatsD |
-| **Data** | PostgreSQL · AWS S3 · LocalStack |
+| **Big Data** | Apache Spark · Elasticsearch · Kibana · AWS S3 |
 | **HPC** | SLURM · DDP multi-GPU |
 
 ---
