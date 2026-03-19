@@ -1,35 +1,35 @@
-# Hi, I'm Tahiana 👋
+# Salut, moi c'est Tahiana 👋
 
-**MLOps & AI Engineer** · Télécom Paris — Mastère Spécialisé IA & Data
+**Ingénieure MLOps & IA** · Télécom Paris — Mastère Spécialisé IA & Data
 
-I build production-grade ML systems — from training pipelines to deployed APIs, with a focus on reliability, observability, and scale.
-
----
-
-## 🚀 Featured Projects
-
-### 🔍 [FraudGuard](https://github.com/tahianahajanirina/Fraudguard) — MLOps Fraud Detection Pipeline
-End-to-end MLOps system for real-time credit card fraud detection.
-- **Stack:** LightGBM · Airflow · MLflow · FastAPI · Docker · Kubernetes
-- **Monitoring:** Prometheus · Grafana · StatsD
-- **CI/CD:** GitHub Actions · 63 tests
-- **Results:** AUC-PR 0.567 · F1 0.711 · ROC-AUC 0.887
-
-### 🛍️ HieraCat — Hierarchical Product Classification at Scale
-Deep hierarchical classification of millions of e-commerce products across 150+ top-level and 6000+ fine-grained categories.
-- **Model:** Multi-head hierarchical transformer — 3 variants: Local, Global, Nested
-- **Backbone:** CamemBERT · DDP multi-GPU training on SLURM cluster (P100 / A100)
-- **Stack:** PyTorch · HuggingFace Transformers · MLflow · SLURM
-
-### ☁️ [SkySafe Datalake](https://github.com/tahianahajanirina/skysafe-datalake) — Cloud Data Engineering
-Data lake architecture for aviation safety data.
-
-### 🍽️ [MangetaMain](https://github.com/tahianahajanirina/mangetamain) — Télécom Paris Project
-Full-stack application — Télécom Paris engineering project.
+Je conçois des systèmes ML production-ready — des pipelines d'entraînement aux APIs déployées, avec un focus sur la fiabilité, l'observabilité et le passage à l'échelle.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Projets phares
+
+### 🔍 [FraudGuard](https://github.com/tahianahajanirina/Fraudguard) — Pipeline MLOps de détection de fraude
+Système MLOps complet pour la détection de fraude bancaire en temps réel.
+- **Stack :** LightGBM · Airflow · MLflow · FastAPI · Docker · Kubernetes
+- **Monitoring :** Prometheus · Grafana · StatsD
+- **CI/CD :** GitHub Actions · 63 tests
+- **Résultats :** AUC-PR 0.567 · F1 0.711 · ROC-AUC 0.887
+
+### 🏷️ HieraCat — Classification hiérarchique de produits à grande échelle
+Classification hiérarchique de millions de produits e-commerce sur 150+ catégories principales et 6000+ catégories fines.
+- **Modèle :** Transformer multi-têtes hiérarchique — 3 variantes : Local, Global, Nested
+- **Backbone :** CamemBERT · Entraînement multi-GPU DDP sur cluster SLURM (P100 / A100)
+- **Stack :** PyTorch · HuggingFace Transformers · MLflow · SLURM
+
+### ☁️ [SkySafe Datalake](https://github.com/tahianahajanirina/skysafe-datalake) — Data Engineering Cloud
+Architecture de data lake pour des données de sécurité aérienne.
+
+### 🍽️ [MangetaMain](https://github.com/tahianahajanirina/mangetamain) — Projet Télécom Paris
+Application full-stack — projet d'ingénierie Télécom Paris.
+
+---
+
+## 🛠️ Stack technique
 
 **ML & Data**
 `Python` `PyTorch` `scikit-learn` `LightGBM` `HuggingFace` `MLflow` `Airflow`
@@ -50,4 +50,4 @@ Full-stack application — Télécom Paris engineering project.
 
 ---
 
-*Always building, always learning.*
+*Toujours en train de construire, toujours en train d'apprendre.*
