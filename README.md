@@ -50,7 +50,7 @@ Pipeline MLOps complet de bout en bout : ingestion, entraînement automatisé, A
 </td>
 <td width="50%" valign="top">
 
-### 🏷️ HieraCat
+### 🏷️ HieraCat &nbsp; ![](https://img.shields.io/badge/EN_COURS-brightgreen?style=flat-square)
 > **Classer des millions de produits, automatiquement et avec précision.**
 
 Système de classification hiérarchique profonde pour catégoriser des produits e-commerce à grande échelle — sur deux niveaux : catégorie principale et sous-catégorie fine.
@@ -67,7 +67,6 @@ Système de classification hiérarchique profonde pour catégoriser des produits
 ![SLURM](https://img.shields.io/badge/SLURM-HPC-green?style=for-the-badge)
 ![CamemBERT](https://img.shields.io/badge/CamemBERT-NLP-orange?style=for-the-badge)
 
-![En cours](https://img.shields.io/badge/🚧_En_cours_de_développement-orange?style=for-the-badge)
 
 </td>
 </tr>
