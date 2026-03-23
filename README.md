@@ -67,7 +67,7 @@ Système de classification hiérarchique profonde pour catégoriser des produits
 ![SLURM](https://img.shields.io/badge/SLURM-HPC-green?style=for-the-badge)
 ![CamemBERT](https://img.shields.io/badge/CamemBERT-NLP-orange?style=for-the-badge)
 
-![Projet confidentiel](https://img.shields.io/badge/Projet_confidentiel-🔒-lightgrey?style=for-the-badge)
+![En cours](https://img.shields.io/badge/🚧_En_cours_de_développement-orange?style=for-the-badge)
 
 </td>
 </tr>
