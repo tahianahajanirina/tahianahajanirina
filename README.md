@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:3BBFCE,100:F7931E&height=220&section=header&text=Tahiana%20Andriambahoaka&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=MLOps%20Engineer%20%C2%B7%20MS%C2%AE%20IA%20Expert%20Data%20%26%20MLops%20%C2%B7%20T%C3%A9l%C3%A9com%20Paris&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
-</p>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:3BBFCE,100:F7931E&height=220&section=header&text=Tahiana%20Andriambahoaka&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=MLOps%20Engineer%20%C2%B7%20MS%C2%AE%20IA%20Expert%20Data%20%26%20MLops%20%C2%B7%20T%C3%A9l%C3%A9com%20Paris&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=MLOps+Engineer;NLP+%26+Deep+Learning;Big+Data+Pipelines;From+notebooks+to+production+%F0%9F%9A%80" alt="Typing SVG" />
