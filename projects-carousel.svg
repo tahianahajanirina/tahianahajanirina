@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 268" font-family="system-ui,-apple-system,'Segoe UI',sans-serif">
+  <defs>
+    <filter id="sh">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#00000015"/>
+    </filter>
+    <!-- Title bar gradient -->
+    <linearGradient id="titleBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.08"/>
+    </linearGradient>
+    <!-- Card background radial gradients -->
+    <radialGradient id="cbg1" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cbg2" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#F7931E" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cbg3" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3BBFCE" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cbg4" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FF6B6B" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cbg5" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Left accent bar gradients -->
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#6C63FF" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F7931E"/>
+      <stop offset="100%" stop-color="#F7931E" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3BBFCE"/>
+      <stop offset="100%" stop-color="#3BBFCE" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="bar4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#FF6B6B" stop-opacity="0.5"/>
+    </linearGradient>
+    <linearGradient id="bar5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="1" y="1" width="858" height="266" rx="14" fill="#ffffff" stroke="#e0e0e0" stroke-width="1.5" filter="url(#sh)"/>
+  <!-- Title bar with gradient -->
+  <rect x="1" y="1" width="858" height="32" rx="14" fill="url(#titleBg)"/>
+  <rect x="1" y="18" width="858" height="15" fill="url(#titleBg)"/>
+  <text x="430" y="21" text-anchor="middle" font-size="13" font-weight="bold" fill="#444">🚀 Projets phares</text>
+  <!-- Title separator line -->
+  <line x1="10" y1="33" x2="850" y2="33" stroke="#e8e8f0" stroke-width="1"/>
+
+  <!-- Footer separator line -->
+  <line x1="10" y1="240" x2="850" y2="240" stroke="#ececf0" stroke-width="0.5"/>
+
+  <!--
+    Cycle = 25s, 5 cards × 5s each
+    Fade-in: 0.8s (0.032), visible: 3.4s (0.136), fade-out: 0.8s (0.032)
+    Card 0: visible 0→0.168, fade-out 0.168→0.2, fade-in 0.968→1
+    Card 1: fade-in 0.2→0.232, visible 0.232→0.368, fade-out 0.368→0.4
+    Card 2: fade-in 0.4→0.432, visible 0.432→0.568, fade-out 0.568→0.6
+    Card 3: fade-in 0.6→0.632, visible 0.632→0.768, fade-out 0.768→0.8
+    Card 4: fade-in 0.8→0.832, visible 0.832→0.968, fade-out 0.968→1
+  -->
+
+  <!-- ══ CARD 1 — FraudGuard #6C63FF ══ -->
+  <g>
+    <animate attributeName="opacity"
+      values="1;1;0;0;1"
+      keyTimes="0;0.168;0.2;0.968;1"
+      dur="25s" repeatCount="indefinite"/>
+    <rect x="14" y="36" width="588" height="220" rx="8" fill="url(#cbg1)"/>
+    <rect x="8" y="36" width="6" height="222" rx="3" fill="url(#bar1)"/>
+    <text x="28" y="82" font-size="40">🔍</text>
+    <text x="80" y="67" font-size="19" font-weight="bold" fill="#1a1a2e" letter-spacing="0.3">FraudGuard</text>
+    <text x="80" y="87" font-size="12" fill="#555" font-style="italic">Détecter la fraude bancaire avant qu'elle arrive</text>
+    <circle cx="86" cy="109" r="3.5" fill="#6C63FF"/>
+    <text x="96" y="113" font-size="11.5" fill="#222">LightGBM · F1=0.711 · ROC-AUC=0.887</text>
+    <circle cx="86" cy="129" r="3.5" fill="#6C63FF"/>
+    <text x="96" y="133" font-size="11.5" fill="#222">13 services Docker · 63 tests · CI/CD GitHub Actions</text>
+    <circle cx="86" cy="149" r="3.5" fill="#6C63FF"/>
+    <text x="96" y="153" font-size="11.5" fill="#222">Airflow + MLflow + Grafana + Prometheus + Kubernetes</text>
+    <rect x="80" y="164" width="52" height="16" rx="8" fill="#6C63FF" opacity="0.13" stroke="#6C63FF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="106" y="175" text-anchor="middle" font-size="10" fill="#6C63FF">Python</text>
+    <rect x="138" y="164" width="50" height="16" rx="8" fill="#6C63FF" opacity="0.13" stroke="#6C63FF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="163" y="175" text-anchor="middle" font-size="10" fill="#6C63FF">Docker</text>
+    <rect x="194" y="164" width="52" height="16" rx="8" fill="#6C63FF" opacity="0.13" stroke="#6C63FF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="220" y="175" text-anchor="middle" font-size="10" fill="#6C63FF">Airflow</text>
+    <rect x="252" y="164" width="50" height="16" rx="8" fill="#6C63FF" opacity="0.13" stroke="#6C63FF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="277" y="175" text-anchor="middle" font-size="10" fill="#6C63FF">MLflow</text>
+    <rect x="308" y="164" width="78" height="16" rx="8" fill="#6C63FF" opacity="0.13" stroke="#6C63FF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="347" y="175" text-anchor="middle" font-size="10" fill="#6C63FF">Prometheus</text>
+    <rect x="392" y="164" width="78" height="16" rx="8" fill="#6C63FF" opacity="0.13" stroke="#6C63FF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="431" y="175" text-anchor="middle" font-size="10" fill="#6C63FF">Kubernetes</text>
+    <text x="80" y="208" font-size="11" fill="#6C63FF" font-weight="600">▶ github.com/tahianahajanirina/Fraudguard</text>
+    <!-- Right panel with decorative circles -->
+    <rect x="605" y="38" width="242" height="212" rx="12" fill="#6C63FF" opacity="0.08"/>
+    <circle cx="650" cy="68" r="8" fill="#6C63FF" opacity="0.08"/>
+    <circle cx="800" cy="78" r="6" fill="#6C63FF" opacity="0.08"/>
+    <circle cx="660" cy="210" r="10" fill="#6C63FF" opacity="0.08"/>
+    <circle cx="805" cy="195" r="7" fill="#6C63FF" opacity="0.08"/>
+    <text x="726" y="142" text-anchor="middle" font-size="72">🔍</text>
+    <text x="832" y="248" font-size="10" fill="#ccc">01 / 05</text>
+  </g>
+
+  <!-- ══ CARD 2 — HieraCat #F7931E ══ -->
+  <g opacity="0">
+    <animate attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.2;0.232;0.368;0.4;1"
+      dur="25s" repeatCount="indefinite"/>
+    <rect x="14" y="36" width="588" height="220" rx="8" fill="url(#cbg2)"/>
+    <rect x="8" y="36" width="6" height="222" rx="3" fill="url(#bar2)"/>
+    <text x="28" y="82" font-size="40">🏷️</text>
+    <text x="80" y="67" font-size="19" font-weight="bold" fill="#1a1a2e" letter-spacing="0.3">HieraCat</text>
+    <rect x="195" y="53" width="68" height="17" rx="8.5" fill="#22c55e"/>
+    <text x="229" y="65" text-anchor="middle" font-size="10" fill="white" font-weight="bold">EN COURS</text>
+    <text x="80" y="87" font-size="12" fill="#555" font-style="italic">Classifier 6 059 sous-catégories produits avec CamemBERT</text>
+    <circle cx="86" cy="109" r="3.5" fill="#F7931E"/>
+    <text x="96" y="113" font-size="11.5" fill="#222">157 catégories · 6 059 sous-catégories produits</text>
+    <circle cx="86" cy="129" r="3.5" fill="#F7931E"/>
+    <text x="96" y="133" font-size="11.5" fill="#222">Multi-GPU · Cluster SLURM · 77 tests</text>
+    <circle cx="86" cy="149" r="3.5" fill="#F7931E"/>
+    <text x="96" y="153" font-size="11.5" fill="#222">Explicabilité Gradient×Input · MLflow tracking</text>
+    <rect x="80" y="164" width="55" height="16" rx="8" fill="#F7931E" opacity="0.13" stroke="#F7931E" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="107" y="175" text-anchor="middle" font-size="10" fill="#F7931E">PyTorch</text>
+    <rect x="141" y="164" width="80" height="16" rx="8" fill="#F7931E" opacity="0.13" stroke="#F7931E" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="181" y="175" text-anchor="middle" font-size="10" fill="#F7931E">HuggingFace</text>
+    <rect x="227" y="164" width="76" height="16" rx="8" fill="#F7931E" opacity="0.13" stroke="#F7931E" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="265" y="175" text-anchor="middle" font-size="10" fill="#F7931E">CamemBERT</text>
+    <rect x="309" y="164" width="50" height="16" rx="8" fill="#F7931E" opacity="0.13" stroke="#F7931E" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="334" y="175" text-anchor="middle" font-size="10" fill="#F7931E">MLflow</text>
+    <rect x="365" y="164" width="48" height="16" rx="8" fill="#F7931E" opacity="0.13" stroke="#F7931E" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="389" y="175" text-anchor="middle" font-size="10" fill="#F7931E">SLURM</text>
+    <text x="80" y="208" font-size="11" fill="#aaa">→ Projet académique (confidentiel)</text>
+    <!-- Right panel with decorative circles -->
+    <rect x="605" y="38" width="242" height="212" rx="12" fill="#F7931E" opacity="0.08"/>
+    <circle cx="650" cy="68" r="8" fill="#F7931E" opacity="0.08"/>
+    <circle cx="800" cy="78" r="6" fill="#F7931E" opacity="0.08"/>
+    <circle cx="660" cy="210" r="10" fill="#F7931E" opacity="0.08"/>
+    <circle cx="805" cy="195" r="7" fill="#F7931E" opacity="0.08"/>
+    <text x="726" y="142" text-anchor="middle" font-size="72">🏷️</text>
+    <text x="832" y="248" font-size="10" fill="#ccc">02 / 05</text>
+  </g>
+
+  <!-- ══ CARD 3 — SkySafe #3BBFCE ══ -->
+  <g opacity="0">
+    <animate attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.4;0.432;0.568;0.6;1"
+      dur="25s" repeatCount="indefinite"/>
+    <rect x="14" y="36" width="588" height="220" rx="8" fill="url(#cbg3)"/>
+    <rect x="8" y="36" width="6" height="222" rx="3" fill="url(#bar3)"/>
+    <text x="28" y="82" font-size="40">✈️</text>
+    <text x="80" y="67" font-size="19" font-weight="bold" fill="#1a1a2e" letter-spacing="0.3">SkySafe Datalake</text>
+    <text x="80" y="87" font-size="12" fill="#555" font-style="italic">Surveiller le trafic aérien français en temps réel</text>
+    <circle cx="86" cy="109" r="3.5" fill="#3BBFCE"/>
+    <text x="96" y="113" font-size="11.5" fill="#222">Ingestion toutes les minutes · OpenSky + Open-Meteo</text>
+    <circle cx="86" cy="129" r="3.5" fill="#3BBFCE"/>
+    <text x="96" y="133" font-size="11.5" fill="#222">Data Lake S3 4 couches · K-Means Spark MLlib</text>
+    <circle cx="86" cy="149" r="3.5" fill="#3BBFCE"/>
+    <text x="96" y="153" font-size="11.5" fill="#222">Score de risque FAA 0–100 · Dashboard Kibana · 29 tests</text>
+    <rect x="80" y="164" width="44" height="16" rx="8" fill="#3BBFCE" opacity="0.13" stroke="#3BBFCE" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="102" y="175" text-anchor="middle" font-size="10" fill="#3BBFCE">Spark</text>
+    <rect x="130" y="164" width="52" height="16" rx="8" fill="#3BBFCE" opacity="0.13" stroke="#3BBFCE" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="156" y="175" text-anchor="middle" font-size="10" fill="#3BBFCE">Airflow</text>
+    <rect x="188" y="164" width="90" height="16" rx="8" fill="#3BBFCE" opacity="0.13" stroke="#3BBFCE" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="233" y="175" text-anchor="middle" font-size="10" fill="#3BBFCE">Elasticsearch</text>
+    <rect x="284" y="164" width="50" height="16" rx="8" fill="#3BBFCE" opacity="0.13" stroke="#3BBFCE" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="309" y="175" text-anchor="middle" font-size="10" fill="#3BBFCE">AWS S3</text>
+    <rect x="340" y="164" width="50" height="16" rx="8" fill="#3BBFCE" opacity="0.13" stroke="#3BBFCE" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="365" y="175" text-anchor="middle" font-size="10" fill="#3BBFCE">Kibana</text>
+    <text x="80" y="208" font-size="11" fill="#3BBFCE" font-weight="600">▶ github.com/tahianahajanirina/skysafe-datalake</text>
+    <!-- Right panel with decorative circles -->
+    <rect x="605" y="38" width="242" height="212" rx="12" fill="#3BBFCE" opacity="0.08"/>
+    <circle cx="650" cy="68" r="8" fill="#3BBFCE" opacity="0.08"/>
+    <circle cx="800" cy="78" r="6" fill="#3BBFCE" opacity="0.08"/>
+    <circle cx="660" cy="210" r="10" fill="#3BBFCE" opacity="0.08"/>
+    <circle cx="805" cy="195" r="7" fill="#3BBFCE" opacity="0.08"/>
+    <text x="726" y="142" text-anchor="middle" font-size="72">✈️</text>
+    <text x="832" y="248" font-size="10" fill="#ccc">03 / 05</text>
+  </g>
+
+  <!-- ══ CARD 4 — MangetaMain #FF6B6B ══ -->
+  <g opacity="0">
+    <animate attributeName="opacity"
+      values="0;0;1;1;0;0"
+      keyTimes="0;0.6;0.632;0.768;0.8;1"
+      dur="25s" repeatCount="indefinite"/>
+    <rect x="14" y="36" width="588" height="220" rx="8" fill="url(#cbg4)"/>
+    <rect x="8" y="36" width="6" height="222" rx="3" fill="url(#bar4)"/>
+    <text x="28" y="82" font-size="40">🍽️</text>
+    <text x="80" y="67" font-size="19" font-weight="bold" fill="#1a1a2e" letter-spacing="0.3">MangetaMain</text>
+    <text x="80" y="87" font-size="12" fill="#555" font-style="italic">Recommander des recettes avec 6 modèles ML en parallèle</text>
+    <circle cx="86" cy="109" r="3.5" fill="#FF6B6B"/>
+    <text x="96" y="113" font-size="11.5" fill="#222">Clustering · Nutrition · Sentiment · Collaborative Filtering</text>
+    <circle cx="86" cy="129" r="3.5" fill="#FF6B6B"/>
+    <text x="96" y="133" font-size="11.5" fill="#222">Chatbot Gemini · 124 tests · FastAPI + Streamlit</text>
+    <circle cx="86" cy="149" r="3.5" fill="#FF6B6B"/>
+    <text x="96" y="153" font-size="11.5" fill="#222">230k recettes · 1M+ interactions utilisateurs</text>
+    <rect x="80" y="164" width="80" height="16" rx="8" fill="#FF6B6B" opacity="0.13" stroke="#FF6B6B" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="120" y="175" text-anchor="middle" font-size="10" fill="#FF6B6B">scikit-learn</text>
+    <rect x="166" y="164" width="80" height="16" rx="8" fill="#FF6B6B" opacity="0.13" stroke="#FF6B6B" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="206" y="175" text-anchor="middle" font-size="10" fill="#FF6B6B">HuggingFace</text>
+    <rect x="252" y="164" width="62" height="16" rx="8" fill="#FF6B6B" opacity="0.13" stroke="#FF6B6B" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="283" y="175" text-anchor="middle" font-size="10" fill="#FF6B6B">Streamlit</text>
+    <rect x="320" y="164" width="52" height="16" rx="8" fill="#FF6B6B" opacity="0.13" stroke="#FF6B6B" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="346" y="175" text-anchor="middle" font-size="10" fill="#FF6B6B">Gemini</text>
+    <rect x="378" y="164" width="55" height="16" rx="8" fill="#FF6B6B" opacity="0.13" stroke="#FF6B6B" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="405" y="175" text-anchor="middle" font-size="10" fill="#FF6B6B">FastAPI</text>
+    <text x="80" y="208" font-size="11" fill="#FF6B6B" font-weight="600">▶ github.com/tahianahajanirina/mangetamain</text>
+    <!-- Right panel with decorative circles -->
+    <rect x="605" y="38" width="242" height="212" rx="12" fill="#FF6B6B" opacity="0.08"/>
+    <circle cx="650" cy="68" r="8" fill="#FF6B6B" opacity="0.08"/>
+    <circle cx="800" cy="78" r="6" fill="#FF6B6B" opacity="0.08"/>
+    <circle cx="660" cy="210" r="10" fill="#FF6B6B" opacity="0.08"/>
+    <circle cx="805" cy="195" r="7" fill="#FF6B6B" opacity="0.08"/>
+    <text x="726" y="142" text-anchor="middle" font-size="72">🍽️</text>
+    <text x="832" y="248" font-size="10" fill="#ccc">04 / 05</text>
+  </g>
+
+  <!-- ══ CARD 5 — DocRAG-MD #10B981 ══ -->
+  <g opacity="0">
+    <animate attributeName="opacity"
+      values="0;0;1;1;0"
+      keyTimes="0;0.8;0.832;0.968;1"
+      dur="25s" repeatCount="indefinite"/>
+    <rect x="14" y="36" width="588" height="220" rx="8" fill="url(#cbg5)"/>
+    <rect x="8" y="36" width="6" height="222" rx="3" fill="url(#bar5)"/>
+    <text x="28" y="82" font-size="40">🏥</text>
+    <text x="80" y="67" font-size="19" font-weight="bold" fill="#1a1a2e" letter-spacing="0.3">DocRAG-MD</text>
+    <text x="80" y="87" font-size="12" fill="#555" font-style="italic">Q&amp;A médicale avec 4 agents LLM spécialisés</text>
+    <circle cx="86" cy="109" r="3.5" fill="#10B981"/>
+    <text x="96" y="113" font-size="11.5" fill="#222">GraphRAG · Self-RAG · CRAG · Deep Search multi-step</text>
+    <circle cx="86" cy="129" r="3.5" fill="#10B981"/>
+    <text x="96" y="133" font-size="11.5" fill="#222">301k chunks StatPearls · 36M+ articles PubMed live</text>
+    <circle cx="86" cy="149" r="3.5" fill="#10B981"/>
+    <text x="96" y="153" font-size="11.5" fill="#222">62%+ accuracy MedMCQA · Langfuse observabilité</text>
+    <rect x="80" y="164" width="72" height="16" rx="8" fill="#10B981" opacity="0.13" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="116" y="175" text-anchor="middle" font-size="10" fill="#10B981">LangChain</text>
+    <rect x="158" y="164" width="72" height="16" rx="8" fill="#10B981" opacity="0.13" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="194" y="175" text-anchor="middle" font-size="10" fill="#10B981">LangGraph</text>
+    <rect x="236" y="164" width="50" height="16" rx="8" fill="#10B981" opacity="0.13" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="261" y="175" text-anchor="middle" font-size="10" fill="#10B981">Qdrant</text>
+    <rect x="292" y="164" width="55" height="16" rx="8" fill="#10B981" opacity="0.13" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="319" y="175" text-anchor="middle" font-size="10" fill="#10B981">FastAPI</text>
+    <rect x="353" y="164" width="50" height="16" rx="8" fill="#10B981" opacity="0.13" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="378" y="175" text-anchor="middle" font-size="10" fill="#10B981">Docker</text>
+    <text x="80" y="208" font-size="11" fill="#10B981" font-weight="600">▶ github.com/tahianahajanirina/DocRAG-MD</text>
+    <!-- Right panel with decorative circles -->
+    <rect x="605" y="38" width="242" height="212" rx="12" fill="#10B981" opacity="0.08"/>
+    <circle cx="650" cy="68" r="8" fill="#10B981" opacity="0.08"/>
+    <circle cx="800" cy="78" r="6" fill="#10B981" opacity="0.08"/>
+    <circle cx="660" cy="210" r="10" fill="#10B981" opacity="0.08"/>
+    <circle cx="805" cy="195" r="7" fill="#10B981" opacity="0.08"/>
+    <text x="726" y="142" text-anchor="middle" font-size="72">🏥</text>
+    <text x="832" y="248" font-size="10" fill="#ccc">05 / 05</text>
+  </g>
+
+  <!-- ══ NAVIGATION DOTS ══ -->
+  <!-- Dot 1 — FraudGuard -->
+  <circle cx="410" cy="257" r="6" fill="#6C63FF">
+    <animate attributeName="fill"
+      values="#6C63FF;#6C63FF;#ddd;#ddd;#6C63FF"
+      keyTimes="0;0.168;0.2;0.968;1"
+      dur="25s" repeatCount="indefinite"/>
+    <animate attributeName="r"
+      values="6;6.5;5.5;6;4;4;6"
+      keyTimes="0;0.05;0.10;0.168;0.2;0.968;1"
+      dur="25s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Dot 2 — HieraCat -->
+  <circle cx="426" cy="257" r="4" fill="#ddd">
+    <animate attributeName="fill"
+      values="#ddd;#ddd;#F7931E;#F7931E;#ddd;#ddd"
+      keyTimes="0;0.2;0.232;0.368;0.4;1"
+      dur="25s" repeatCount="indefinite"/>
+    <animate attributeName="r"
+      values="4;4;6;6.5;5.5;6;4;4"
+      keyTimes="0;0.2;0.232;0.28;0.33;0.368;0.4;1"
+      dur="25s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Dot 3 — SkySafe -->
+  <circle cx="442" cy="257" r="4" fill="#ddd">
+    <animate attributeName="fill"
+      values="#ddd;#ddd;#3BBFCE;#3BBFCE;#ddd;#ddd"
+      keyTimes="0;0.4;0.432;0.568;0.6;1"
+      dur="25s" repeatCount="indefinite"/>
+    <animate attributeName="r"
+      values="4;4;6;6.5;5.5;6;4;4"
+      keyTimes="0;0.4;0.432;0.48;0.53;0.568;0.6;1"
+      dur="25s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Dot 4 — MangetaMain -->
+  <circle cx="458" cy="257" r="4" fill="#ddd">
+    <animate attributeName="fill"
+      values="#ddd;#ddd;#FF6B6B;#FF6B6B;#ddd;#ddd"
+      keyTimes="0;0.6;0.632;0.768;0.8;1"
+      dur="25s" repeatCount="indefinite"/>
+    <animate attributeName="r"
+      values="4;4;6;6.5;5.5;6;4;4"
+      keyTimes="0;0.6;0.632;0.68;0.73;0.768;0.8;1"
+      dur="25s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Dot 5 — DocRAG-MD -->
+  <circle cx="474" cy="257" r="4" fill="#ddd">
+    <animate attributeName="fill"
+      values="#ddd;#ddd;#10B981;#10B981;#ddd"
+      keyTimes="0;0.8;0.832;0.968;1"
+      dur="25s" repeatCount="indefinite"/>
+    <animate attributeName="r"
+      values="4;4;6;6.5;5.5;6;4"
+      keyTimes="0;0.8;0.832;0.88;0.93;0.968;1"
+      dur="25s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

@@ -30,6 +30,14 @@ tahiana = {
 
 ## 🚀 Projets phares
 
+<div align="center">
+  <img src="projects-carousel.svg" alt="Projets phares — carousel animé" width="100%"/>
+</div>
+
+<!-- Détail des projets (pour référencement) -->
+<details>
+<summary><b>Voir le détail des projets</b></summary>
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -145,6 +153,7 @@ Plateforme RAG multi-agents production-grade pour la Q&A clinique : 4 agents Lan
 </td>
 </tr>
 </table>
+</details>
 
 ---
 
