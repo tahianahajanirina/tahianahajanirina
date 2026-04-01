@@ -118,6 +118,32 @@ Plateforme ML complète d'analyse et de recommandation de recettes : clustering 
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏥 DocRAG-MD
+> **Répondre à des questions médicales complexes avec des agents LLM spécialisés.**
+
+Plateforme RAG multi-agents production-grade pour la Q&A clinique : 4 agents LangGraph spécialisés (diagnostic, pharmacologie, général, évaluateur), GraphRAG sur PrimeKG (100k+ nœuds, 4M+ arêtes), Self-RAG et CRAG pour la fidélité des réponses.
+
+- 🧠 4 LLMs au choix : Gemini 2.5 Flash/Pro, BioMistral 7B local, GPT-4o
+- 📚 301k chunks StatPearls + 36M+ articles PubMed (API live)
+- 🔍 GraphRAG · Self-RAG · CRAG · Deep Search multi-step
+- 📊 Observabilité Langfuse v3 · 62%+ accuracy MedMCQA · 11 services Docker
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6F00?style=for-the-badge&logo=langchain&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC382D?style=for-the-badge&logo=qdrant&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+[![Voir le repo](https://img.shields.io/badge/→_Voir_le_repo-black?style=for-the-badge&logo=github)](https://github.com/tahianahajanirina/DocRAG-MD)
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ---
