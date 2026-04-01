@@ -31,7 +31,9 @@ tahiana = {
 ## 🚀 Projets phares
 
 <div align="center">
-  <img src="projects-carousel.gif" alt="Projets phares — carousel animé" width="100%"/>
+  <a href="https://raw.githubusercontent.com/tahianahajanirina/tahianahajanirina/main/projects-carousel.gif">
+    <img src="projects-carousel.gif" alt="Projets phares — carousel animé" width="100%"/>
+  </a>
 </div>
 
 <!-- Détail des projets (pour référencement) -->
