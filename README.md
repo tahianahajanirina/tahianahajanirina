@@ -16,7 +16,7 @@
 
 ```python
 tahiana = {
-    "role"      : "MLOps Engineer · NLP & Deep Learning",
+    "role"      : "ML / Data Engineer — IA & MLOps",
     "formation" : "MS® IA Expert Data & MLops — Télécom Paris (IP Paris)",
     "location"  : "Paris, France 🇫🇷",
     "languages" : ["Français 🇫🇷", "Malgache 🇲🇬", "Anglais 🇬🇧"],
