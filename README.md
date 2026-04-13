@@ -1,9 +1,9 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:3BBFCE,100:F7931E&height=220&section=header&text=Tahiana+Hajanirina+Andriambahoaka&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=MLOps+Engineer+·+Télécom+Paris+·+Institut+Polytechnique+de+Paris&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:3BBFCE,100:F7931E&height=220&section=header&text=Tahiana+Hajanirina+Andriambahoaka&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=ML+/+Data+Engineer+—+IA+&+MLOps  +·+Télécom+Paris+·+Institut+Polytechnique+de+Paris&descSize=18&descAlignY=60&animation=fadeIn" width="100%"/>
 </div>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=MLOps+Engineer;NLP+%26+Deep+Learning;Big+Data+Pipelines;From+notebooks+to+production+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=AI+Engineer;ML+Engineer;Data+Engineer;MLOps+Engineer;NLP+%26+Deep+Learning;Big+Data+Pipelines;From+notebooks+to+production+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <p align="center">
